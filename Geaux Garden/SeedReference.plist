@@ -2,14 +2,318 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Beans</key>
+	<key>Beans, Lima</key>
 	<dict>
 		<key>Spring</key>
-		<date>2012-08-08T15:06:46Z</date>
+		<string>March 1 - May 30</string>
 		<key>Fall</key>
-		<date>2012-08-08T15:06:52Z</date>
+		<string>Aug 1 - Sep1 1</string>
+		<key>Depth</key>
+		<string>1/2 inch</string>
+	</dict>
+	<key>Beans, Snap</key>
+	<dict>
+		<key>Spring</key>
+		<string>Feb 15 - May10</string>
+		<key>Fall</key>
+		<string>Aug 10 - Sept 10</string>
+		<key>Depth</key>
+		<string>1/2 inch</string>
+	</dict>
+	<key>Beets</key>
+	<dict>
+		<key>Spring</key>
+		<string>Jan 15 - Feb 28</string>
+		<key>Fall</key>
+		<string>Aug 15 - Oct 1</string>
+		<key>Depth</key>
+		<string>1/4 inch</string>
+	</dict>
+	<key>Broccoli</key>
+	<dict>
+		<key>Spring</key>
+		<string>wait till July</string>
+		<key>Fall</key>
+		<string>July 15 - Sept 1</string>
+		<key>Depth</key>
+		<string>1/8 inch</string>
+	</dict>
+	<key>Brussels Sprouts</key>
+	<dict>
+		<key>Spring</key>
+		<string>July 15 - Sept 1</string>
+		<key>Fall</key>
+		<string>July 15 - Sept 1</string>
+		<key>Depth</key>
+		<string>1/2 inch</string>
+	</dict>
+	<key>Cabbage</key>
+	<dict>
+		<key>Spring</key>
+		<string>Oct 1 - Jan 30</string>
+		<key>Fall</key>
+		<string>July 1 - Sep 15</string>
+		<key>Depth</key>
+		<string>1/8 inch</string>
+	</dict>
+	<key>Cantaloupe</key>
+	<dict>
+		<key>Spring</key>
+		<string>March 1 - Aug 1</string>
+		<key>Fall</key>
+		<string>March 1 - Aug 1</string>
+		<key>Depth</key>
+		<string>1/8 inch</string>
+	</dict>
+	<key>Carrots</key>
+	<dict>
+		<key>Spring</key>
+		<string>Jan 15 - Feb 15</string>
+		<key>Fall</key>
+		<string>Sept 1 - Nov 1</string>
+		<key>Depth</key>
+		<string>1/8 inch</string>
+	</dict>
+	<key>Cauliflower</key>
+	<dict>
+		<key>Spring</key>
+		<string>Jan 15 - Feb 15</string>
+		<key>Fall</key>
+		<string>Aug 1 - Sept 1</string>
+		<key>Depth</key>
+		<string>1/8 inch</string>
+	</dict>
+	<key>Celery</key>
+	<dict>
+		<key>Spring</key>
+		<string>wait till Fall</string>
+		<key>Fall</key>
+		<string>Oct 1 - Nov 1</string>
+		<key>Depth</key>
+		<string>1/8 inch</string>
+	</dict>
+	<key>Chard, Swiss</key>
+	<dict>
+		<key>Spring</key>
+		<string>Jan 15 - May 1</string>
+		<key>Fall</key>
+		<string>Aug 15 - Oct 1</string>
+		<key>Depth</key>
+		<string>1/4 inch</string>
+	</dict>
+	<key>Chinese Cabbage</key>
+	<dict>
+		<key>Spring</key>
+		<string>Jan 15 - Feb 15</string>
+		<key>Fall</key>
+		<string>July 15 - Oct 1</string>
 		<key>Depth</key>
 		<string>1/2</string>
+	</dict>
+	<key>Collads</key>
+	<dict>
+		<key>Spring</key>
+		<string>March 15 - October 1</string>
+		<key>Fall</key>
+		<string>March 15 - October 1</string>
+		<key>Depth</key>
+		<string>1/8 inch</string>
+	</dict>
+	<key>Corn, Sweet</key>
+	<dict>
+		<key>Spring</key>
+		<string>Feb 15 - May 15</string>
+		<key>Fall</key>
+		<string>Feb 15 - May 15</string>
+		<key>Depth</key>
+		<string>1/2 inch</string>
+	</dict>
+	<key>Cucumbers</key>
+	<dict>
+		<key>Spring</key>
+		<string>March 1 - Sept 1</string>
+		<key>Fall</key>
+		<string>March 1 - Sept 1</string>
+		<key>Depth</key>
+		<string>1/4 inch</string>
+	</dict>
+	<key>Eggplant</key>
+	<dict>
+		<key>Spring</key>
+		<string>Jan 1 - June 1</string>
+		<key>Fall</key>
+		<string> Jan 1 - June 1</string>
+		<key>Depth</key>
+		<string>1/8 inch</string>
+	</dict>
+	<key>Garlic</key>
+	<dict>
+		<key>Spring</key>
+		<string>2012-08-08T15:06:46Z</string>
+		<key>Fall</key>
+		<string>2012-08-08T15:06:52Z</string>
+		<key>Depth</key>
+		<string>1/2</string>
+	</dict>
+	<key>Kohlrabi</key>
+	<dict>
+		<key>Spring</key>
+		<string>2012-08-08T15:06:46Z</string>
+		<key>Fall</key>
+		<string>2012-08-08T15:06:52Z</string>
+		<key>Depth</key>
+		<string>1/2</string>
+	</dict>
+	<key>Lettus</key>
+	<dict>
+		<key>Spring</key>
+		<string>2012-08-08T15:06:46Z</string>
+		<key>Fall</key>
+		<string>2012-08-08T15:06:52Z</string>
+		<key>Depth</key>
+		<string>1/2</string>
+	</dict>
+	<key>Mustard Greens</key>
+	<dict>
+		<key>Spring</key>
+		<string>Aug 1 - March 15</string>
+		<key>Fall</key>
+		<string>Aug 1 - March 15</string>
+		<key>Depth</key>
+		<string>1/2</string>
+	</dict>
+	<key>Okra</key>
+	<dict>
+		<key>Spring</key>
+		<string>Aug 1 - March 15</string>
+		<key>Fall</key>
+		<string>Aug 1 - March 15</string>
+		<key>Depth</key>
+		<string>1/2</string>
+	</dict>
+	<key>Onions, Leeks</key>
+	<dict>
+		<key>Spring</key>
+		<string>Aug 1 - March 15</string>
+		<key>Fall</key>
+		<string>Aug 1 - March 15</string>
+		<key>Depth</key>
+		<string>1/2</string>
+	</dict>
+	<key>Peanuts</key>
+	<dict>
+		<key>Spring</key>
+		<string>Aug 1 - March 15</string>
+		<key>Fall</key>
+		<string>Aug 1 - March 15</string>
+		<key>Depth</key>
+		<string>1/2</string>
+	</dict>
+	<key>Peas, Engish</key>
+	<dict>
+		<key>Spring</key>
+		<string>Aug 1 - March 15</string>
+		<key>Fall</key>
+		<string>Aug 1 - March 15</string>
+		<key>Depth</key>
+		<string>1/2</string>
+	</dict>
+	<key>Peas, Southern</key>
+	<dict>
+		<key>Spring</key>
+		<string>Aug 1 - March 15</string>
+		<key>Fall</key>
+		<string>Aug 1 - March 15</string>
+		<key>Depth</key>
+		<string>1/2</string>
+	</dict>
+	<key>Peppers, Hot</key>
+	<dict>
+		<key>Spring</key>
+		<string>Aug 1 - March 15</string>
+		<key>Fall</key>
+		<string>Aug 1 - March 15</string>
+		<key>Depth</key>
+		<string>1/2</string>
+	</dict>
+	<key>Peppers, Bell</key>
+	<dict>
+		<key>Spring</key>
+		<string>Aug 1 - March 15</string>
+		<key>Fall</key>
+		<string>Aug 1 - March 15</string>
+		<key>Depth</key>
+		<string>1/2</string>
+	</dict>
+	<key>Potatoes, Irish</key>
+	<dict>
+		<key>Spring</key>
+		<string>Aug 1 - March 15</string>
+		<key>Fall</key>
+		<string>Aug 1 - March 15</string>
+		<key>Depth</key>
+		<string>1/2</string>
+	</dict>
+	<key>Potatoes, Sweet</key>
+	<dict>
+		<key>Spring</key>
+		<string>Aug 1 - March 15</string>
+		<key>Fall</key>
+		<string>Aug 1 - March 15</string>
+		<key>Depth</key>
+		<string>1/2 inch</string>
+	</dict>
+	<key>Pumpkins</key>
+	<dict>
+		<key>Spring</key>
+		<string>Aug 1 - March 15</string>
+		<key>Fall</key>
+		<string>Aug 1 - March 15</string>
+		<key>Depth</key>
+		<string>1/2 inch</string>
+	</dict>
+	<key>Radishes</key>
+	<dict>
+		<key>Spring</key>
+		<string>Aug 1 - March 15</string>
+		<key>Fall</key>
+		<string>Aug 1 - March 15</string>
+		<key>Depth</key>
+		<string>1/2</string>
+	</dict>
+	<key>Summer Squash</key>
+	<dict>
+		<key>Spring</key>
+		<string>March 1 - Aug 15</string>
+		<key>Fall</key>
+		<string>March 1 - Aug 15</string>
+		<key>Depth</key>
+		<string>1/2 inch</string>
+	</dict>
+	<key>Tomatoes</key>
+	<dict>
+		<key>Spring</key>
+		<string>Jan 1 - March 15</string>
+		<key>Fall</key>
+		<string>Jun 1 - July 1</string>
+		<key>Depth</key>
+		<string>1/8 inch</string>
+	</dict>
+	<key>Turnips</key>
+	<dict>
+		<key>Spring</key>
+		<string>Aug 1 - Feb 28</string>
+		<key>Fall</key>
+		<string>Aug 1 - Feb 28</string>
+		<key>Depth</key>
+		<string>1/8 inch</string>
+	</dict>
+	<key>Watermelon</key>
+	<dict>
+		<key>Spring</key>
+		<string>March 15 - Aug 1</string>
+		<key>Fall</key>
+		<string>March 15 - Aug 1</string>
 	</dict>
 </dict>
 </plist>
