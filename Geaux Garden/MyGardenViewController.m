@@ -13,6 +13,8 @@
 @end
 
 @implementation MyGardenViewController
+@synthesize gardenTableView;
+
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -36,6 +38,8 @@
 
 - (void)viewDidUnload
 {
+
+    [self setGardenTableView:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;

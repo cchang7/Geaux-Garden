@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface MyGardenViewController : UITableViewController
+@property (weak, nonatomic) IBOutlet UITableView *gardenTableView;
 
 @end

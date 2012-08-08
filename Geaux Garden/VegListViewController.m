@@ -8,13 +8,16 @@
 
 #import "VegListViewController.h"
 #import "VegCell.h"
+#import "DetailViewController.h"
 
 @interface VegListViewController ()
 
 @end
 
 @implementation VegListViewController
-@synthesize vegCellLabel;
+@synthesize seedRef;
+@synthesize vegTableView;
+
 
 
 - (id)initWithStyle:(UITableViewStyle)style
@@ -28,16 +31,16 @@
 
 - (void)viewDidLoad
 {
+
     [super viewDidLoad];
 
 //    NSDictionary *seedRef;
 //    [[seedRef allkeys] count];
     
     
-//    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"SeedReference" ofType:@"plist"];
-//    NSDictionary *plist = [NSDictionary dictionaryWithContentsOfFile:filePath];
-//    
-//    NSLog(@"plist %@",plist);
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"SeedReference" ofType:@"plist"];
+    self.seedRef = [NSDictionary dictionaryWithContentsOfFile:filePath];
+    NSLog(@"%@",self.seedRef);
 //    
     
     // Uncomment the following line to preserve selection between presentations.
@@ -50,7 +53,7 @@
 - (void)viewDidUnload
 {
 
-    [self setVegCellLabel:nil];
+    [self setVegTableView:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -67,7 +70,7 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     // Return the number of rows in the section.
-    return 5;
+    return self.seedRef.allKeys.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -76,9 +79,22 @@
     
     // Configure the cell...
     
-    
-    cell.textLabel.text = @"a";
+    cell.textLabel.text = [self.seedRef.allKeys objectAtIndex:indexPath.row];
     return cell;
+    
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    // Testing the segue's identifier to see if it is DetailViewSegue
+    // If it is we are going to set the item property on the
+    // new DetailViewController that will be loaded onto screen
+    if ([segue.identifier isEqualToString:@"DetailViewSegue"]) {
+        DetailViewController *detailVC = segue.destinationViewController;
+        NSIndexPath *indexPath = [self.vegTableView indexPathForSelectedRow];
+        detailVC.vegName = [self.seedRef.allKeys objectAtIndex:indexPath.row];
+        [self.vegTableView deselectRowAtIndexPath:indexPath animated:YES];        
+    }
 }
 
 /*
@@ -120,17 +136,5 @@
 }
 */
 
-#pragma mark - Table view delegate
-
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    // Navigation logic may go here. Create and push another view controller.
-    /*
-     <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
-     // ...
-     // Pass the selected object to the new view controller.
-     [self.navigationController pushViewController:detailViewController animated:YES];
-     */
-}
 
 @end

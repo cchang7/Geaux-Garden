@@ -102,9 +102,9 @@
 			isa = PBXGroup;
 			children = (
 				5B3F9C2E15D1B323000576A4 /* MainStoryboard_iPhone.storyboard */,
+				5B3F9C5115D2B7C3000576A4 /* SeedReference.plist */,
 				5B3F9C5315D2D173000576A4 /* AddViewController.h */,
 				5B3F9C5415D2D173000576A4 /* AddViewController.m */,
-				5B3F9C5115D2B7C3000576A4 /* SeedReference.plist */,
 				5B3F9C2B15D1B323000576A4 /* ClassAppAppDelegate.h */,
 				5B3F9C2C15D1B323000576A4 /* ClassAppAppDelegate.m */,
 				5B3F9C4515D2AC44000576A4 /* MyGardenViewController.h */,
@@ -333,6 +333,7 @@
 				5B3F9C3B15D1B323000576A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

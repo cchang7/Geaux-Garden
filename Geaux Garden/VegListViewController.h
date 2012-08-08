@@ -10,6 +10,7 @@
 
 @interface VegListViewController : UITableViewController
 
-@property (weak, nonatomic) IBOutlet UILabel *vegCellLabel;
+@property (weak, nonatomic) IBOutlet UITableView *vegTableView;
 
+@property (strong, nonatomic) NSDictionary *seedRef;
 @end
