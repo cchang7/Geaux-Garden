@@ -16,6 +16,13 @@
 		5B3F9C3015D1B323000576A4 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B3F9C2E15D1B323000576A4 /* MainStoryboard_iPhone.storyboard */; };
 		5B3F9C3315D1B323000576A4 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B3F9C3115D1B323000576A4 /* MainStoryboard_iPad.storyboard */; };
 		5B3F9C3615D1B323000576A4 /* ClassAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3F9C3515D1B323000576A4 /* ClassAppViewController.m */; };
+		5B3F9C4315D2AA0A000576A4 /* LocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3F9C4115D2AA0A000576A4 /* LocationViewController.m */; };
+		5B3F9C4415D2AA0A000576A4 /* LocationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B3F9C4215D2AA0A000576A4 /* LocationViewController.xib */; };
+		5B3F9C4715D2AC44000576A4 /* MyGardenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3F9C4615D2AC44000576A4 /* MyGardenViewController.m */; };
+		5B3F9C4A15D2AC5B000576A4 /* VegListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3F9C4915D2AC5B000576A4 /* VegListViewController.m */; };
+		5B3F9C4D15D2AD1C000576A4 /* VegCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3F9C4C15D2AD1C000576A4 /* VegCell.m */; };
+		5B3F9C5015D2B586000576A4 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3F9C4F15D2B585000576A4 /* DetailViewController.m */; };
+		5B3F9C5215D2B7C3000576A4 /* SeedReference.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B3F9C5115D2B7C3000576A4 /* SeedReference.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +30,28 @@
 		5B3F9C1C15D1B322000576A4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5B3F9C1E15D1B322000576A4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5B3F9C2015D1B322000576A4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		5B3F9C2415D1B322000576A4 /* Geaux Garden-Info.plist */ = {isa = PBXFileReference; path = "Geaux Garden-Info.plist"; sourceTree = "<group>"; };
+		5B3F9C2415D1B322000576A4 /* Geaux Garden-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Geaux Garden-Info.plist"; sourceTree = "<group>"; };
 		5B3F9C2615D1B322000576A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5B3F9C2815D1B323000576A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5B3F9C2A15D1B323000576A4 /* Geaux Garden-Prefix.pch */ = {isa = PBXFileReference; path = "Geaux Garden-Prefix.pch"; sourceTree = "<group>"; };
-		5B3F9C2B15D1B323000576A4 /* ClassAppAppDelegate.h */ = {isa = PBXFileReference; path = ClassAppAppDelegate.h; sourceTree = "<group>"; };
+		5B3F9C2A15D1B323000576A4 /* Geaux Garden-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Geaux Garden-Prefix.pch"; sourceTree = "<group>"; };
+		5B3F9C2B15D1B323000576A4 /* ClassAppAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassAppAppDelegate.h; sourceTree = "<group>"; };
 		5B3F9C2C15D1B323000576A4 /* ClassAppAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassAppAppDelegate.m; sourceTree = "<group>"; };
 		5B3F9C2F15D1B323000576A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		5B3F9C3215D1B323000576A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		5B3F9C3415D1B323000576A4 /* ClassAppViewController.h */ = {isa = PBXFileReference; path = ClassAppViewController.h; sourceTree = "<group>"; };
+		5B3F9C3415D1B323000576A4 /* ClassAppViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassAppViewController.h; sourceTree = "<group>"; };
 		5B3F9C3515D1B323000576A4 /* ClassAppViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassAppViewController.m; sourceTree = "<group>"; };
+		5B3F9C4015D2AA0A000576A4 /* LocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationViewController.h; sourceTree = "<group>"; };
+		5B3F9C4115D2AA0A000576A4 /* LocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationViewController.m; sourceTree = "<group>"; };
+		5B3F9C4215D2AA0A000576A4 /* LocationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LocationViewController.xib; sourceTree = "<group>"; };
+		5B3F9C4515D2AC44000576A4 /* MyGardenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyGardenViewController.h; sourceTree = "<group>"; };
+		5B3F9C4615D2AC44000576A4 /* MyGardenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyGardenViewController.m; sourceTree = "<group>"; };
+		5B3F9C4815D2AC5B000576A4 /* VegListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VegListViewController.h; sourceTree = "<group>"; };
+		5B3F9C4915D2AC5B000576A4 /* VegListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VegListViewController.m; sourceTree = "<group>"; };
+		5B3F9C4B15D2AD1C000576A4 /* VegCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VegCell.h; sourceTree = "<group>"; };
+		5B3F9C4C15D2AD1C000576A4 /* VegCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VegCell.m; sourceTree = "<group>"; };
+		5B3F9C4E15D2B585000576A4 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		5B3F9C4F15D2B585000576A4 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		5B3F9C5115D2B7C3000576A4 /* SeedReference.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SeedReference.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +98,21 @@
 		5B3F9C2215D1B322000576A4 /* Geaux Garden */ = {
 			isa = PBXGroup;
 			children = (
+				5B3F9C2E15D1B323000576A4 /* MainStoryboard_iPhone.storyboard */,
+				5B3F9C5115D2B7C3000576A4 /* SeedReference.plist */,
 				5B3F9C2B15D1B323000576A4 /* ClassAppAppDelegate.h */,
 				5B3F9C2C15D1B323000576A4 /* ClassAppAppDelegate.m */,
-				5B3F9C2E15D1B323000576A4 /* MainStoryboard_iPhone.storyboard */,
+				5B3F9C4515D2AC44000576A4 /* MyGardenViewController.h */,
+				5B3F9C4615D2AC44000576A4 /* MyGardenViewController.m */,
+				5B3F9C4815D2AC5B000576A4 /* VegListViewController.h */,
+				5B3F9C4915D2AC5B000576A4 /* VegListViewController.m */,
+				5B3F9C4B15D2AD1C000576A4 /* VegCell.h */,
+				5B3F9C4C15D2AD1C000576A4 /* VegCell.m */,
+				5B3F9C4015D2AA0A000576A4 /* LocationViewController.h */,
+				5B3F9C4115D2AA0A000576A4 /* LocationViewController.m */,
+				5B3F9C4215D2AA0A000576A4 /* LocationViewController.xib */,
+				5B3F9C4E15D2B585000576A4 /* DetailViewController.h */,
+				5B3F9C4F15D2B585000576A4 /* DetailViewController.m */,
 				5B3F9C3115D1B323000576A4 /* MainStoryboard_iPad.storyboard */,
 				5B3F9C3415D1B323000576A4 /* ClassAppViewController.h */,
 				5B3F9C3515D1B323000576A4 /* ClassAppViewController.m */,
@@ -155,6 +186,8 @@
 				5B3F9C2715D1B322000576A4 /* InfoPlist.strings in Resources */,
 				5B3F9C3015D1B323000576A4 /* MainStoryboard_iPhone.storyboard in Resources */,
 				5B3F9C3315D1B323000576A4 /* MainStoryboard_iPad.storyboard in Resources */,
+				5B3F9C4415D2AA0A000576A4 /* LocationViewController.xib in Resources */,
+				5B3F9C5215D2B7C3000576A4 /* SeedReference.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +201,11 @@
 				5B3F9C2915D1B323000576A4 /* main.m in Sources */,
 				5B3F9C2D15D1B323000576A4 /* ClassAppAppDelegate.m in Sources */,
 				5B3F9C3615D1B323000576A4 /* ClassAppViewController.m in Sources */,
+				5B3F9C4315D2AA0A000576A4 /* LocationViewController.m in Sources */,
+				5B3F9C4715D2AC44000576A4 /* MyGardenViewController.m in Sources */,
+				5B3F9C4A15D2AC5B000576A4 /* VegListViewController.m in Sources */,
+				5B3F9C4D15D2AD1C000576A4 /* VegCell.m in Sources */,
+				5B3F9C5015D2B586000576A4 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

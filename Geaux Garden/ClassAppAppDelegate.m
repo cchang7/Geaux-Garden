@@ -14,6 +14,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"SeedReference" ofType:@"plist"];
+    NSDictionary *reference = [NSDictionary dictionaryWithContentsOfFile:filePath];
     // Override point for customization after application launch.
     return YES;
 }
