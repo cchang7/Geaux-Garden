@@ -1,5 +1,5 @@
 //
-//  VegListViewController.h
+//  AddViewController.h
 //  Geaux Garden
 //
 //  Created by iOS Camp on 8/8/12.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface VegListViewController : UITableViewController
+@interface AddViewController : UIViewController
 
-@property (weak, nonatomic) IBOutlet UILabel *vegCellLabel;
+- (IBAction)addButton:(UIBarButtonItem *)sender;
 
 @end

@@ -23,6 +23,7 @@
 		5B3F9C4D15D2AD1C000576A4 /* VegCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3F9C4C15D2AD1C000576A4 /* VegCell.m */; };
 		5B3F9C5015D2B586000576A4 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3F9C4F15D2B585000576A4 /* DetailViewController.m */; };
 		5B3F9C5215D2B7C3000576A4 /* SeedReference.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B3F9C5115D2B7C3000576A4 /* SeedReference.plist */; };
+		5B3F9C5515D2D173000576A4 /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3F9C5415D2D173000576A4 /* AddViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,8 @@
 		5B3F9C4E15D2B585000576A4 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		5B3F9C4F15D2B585000576A4 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		5B3F9C5115D2B7C3000576A4 /* SeedReference.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SeedReference.plist; sourceTree = "<group>"; };
+		5B3F9C5315D2D173000576A4 /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		5B3F9C5415D2D173000576A4 /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				5B3F9C2E15D1B323000576A4 /* MainStoryboard_iPhone.storyboard */,
+				5B3F9C5315D2D173000576A4 /* AddViewController.h */,
+				5B3F9C5415D2D173000576A4 /* AddViewController.m */,
 				5B3F9C5115D2B7C3000576A4 /* SeedReference.plist */,
 				5B3F9C2B15D1B323000576A4 /* ClassAppAppDelegate.h */,
 				5B3F9C2C15D1B323000576A4 /* ClassAppAppDelegate.m */,
@@ -113,9 +118,9 @@
 				5B3F9C4215D2AA0A000576A4 /* LocationViewController.xib */,
 				5B3F9C4E15D2B585000576A4 /* DetailViewController.h */,
 				5B3F9C4F15D2B585000576A4 /* DetailViewController.m */,
-				5B3F9C3115D1B323000576A4 /* MainStoryboard_iPad.storyboard */,
 				5B3F9C3415D1B323000576A4 /* ClassAppViewController.h */,
 				5B3F9C3515D1B323000576A4 /* ClassAppViewController.m */,
+				5B3F9C3115D1B323000576A4 /* MainStoryboard_iPad.storyboard */,
 				5B3F9C2315D1B322000576A4 /* Supporting Files */,
 			);
 			path = "Geaux Garden";
@@ -206,6 +211,7 @@
 				5B3F9C4A15D2AC5B000576A4 /* VegListViewController.m in Sources */,
 				5B3F9C4D15D2AD1C000576A4 /* VegCell.m in Sources */,
 				5B3F9C5015D2B586000576A4 /* DetailViewController.m in Sources */,
+				5B3F9C5515D2D173000576A4 /* AddViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

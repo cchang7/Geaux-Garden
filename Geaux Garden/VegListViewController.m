@@ -7,12 +7,15 @@
 //
 
 #import "VegListViewController.h"
+#import "VegCell.h"
 
 @interface VegListViewController ()
 
 @end
 
 @implementation VegListViewController
+@synthesize vegCellLabel;
+
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -27,6 +30,16 @@
 {
     [super viewDidLoad];
 
+//    NSDictionary *seedRef;
+//    [[seedRef allkeys] count];
+    
+    
+//    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"SeedReference" ofType:@"plist"];
+//    NSDictionary *plist = [NSDictionary dictionaryWithContentsOfFile:filePath];
+//    
+//    NSLog(@"plist %@",plist);
+//    
+    
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
  
@@ -36,6 +49,8 @@
 
 - (void)viewDidUnload
 {
+
+    [self setVegCellLabel:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -48,27 +63,21 @@
 
 #pragma mark - Table view data source
 
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
-{
-#warning Potentially incomplete method implementation.
-    // Return the number of sections.
-    return 0;
-}
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-#warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return 0;
+    return 5;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"Cell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    VegCell *cell = [tableView dequeueReusableCellWithIdentifier:@"vegcell"];
     
     // Configure the cell...
     
+    
+    cell.textLabel.text = @"a";
     return cell;
 }
 

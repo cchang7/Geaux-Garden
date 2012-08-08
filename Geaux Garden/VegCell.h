@@ -10,6 +10,9 @@
 
 @interface VegCell : UITableViewCell
 
+
+
+
 @property (nonatomic, strong) NSString *name;
 @property (nonatomic, strong) NSString *date;
 @property (nonatomic, strong) NSString *info;
