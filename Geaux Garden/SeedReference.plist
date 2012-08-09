@@ -10,6 +10,13 @@
 		<string>Aug 1 - Sep1 1</string>
 		<key>Depth</key>
 		<string>1/2 inch</string>
+		<key>Space</key>
+		<string>3-4 inches</string>
+		<key>Harvest</key>
+		<string>64 days</string>
+		<key>Varieties</key>
+		<string>Dixie Butterpea , Fordhook 242 (AAS), Henderson Bush, Jackson Wonder, Thorogreen.
+Lima (Pole) Florida Speckled, King of Garden</string>
 	</dict>
 	<key>Beans, Snap</key>
 	<dict>
@@ -19,6 +26,13 @@
 		<string>Aug 10 - Sept 10</string>
 		<key>Depth</key>
 		<string>1/2 inch</string>
+		<key>Space</key>
+		<string>2-3 inches</string>
+		<key>Harvest</key>
+		<string>50 days</string>
+		<key>Varieties</key>
+		<string>Blue Lake 274, Bronco, Contender, Derby (AAS), Festina, Lynx,  Magnum, Provider, Roma II, Royal Burgundy, Strike, Valentino
+Snap (Pole) Blue Lake, Kentucky Blue (AAS), Kentucky Wonder 191, McCaslin, Rattlesnake (striped), Yardlong Asparagus Bean</string>
 	</dict>
 	<key>Beets</key>
 	<dict>
@@ -28,6 +42,12 @@
 		<string>Aug 15 - Oct 1</string>
 		<key>Depth</key>
 		<string>1/4 inch</string>
+		<key>Space</key>
+		<string>2-4 inches</string>
+		<key>Harvest</key>
+		<string>58 days</string>
+		<key>Varieties</key>
+		<string></string>
 	</dict>
 	<key>Broccoli</key>
 	<dict>
@@ -37,6 +57,12 @@
 		<string>July 15 - Sept 1</string>
 		<key>Depth</key>
 		<string>1/8 inch</string>
+		<key>Space</key>
+		<string>20 inches</string>
+		<key>Harvest</key>
+		<string>80 days</string>
+		<key>Varieties</key>
+		<string></string>
 	</dict>
 	<key>Brussels Sprouts</key>
 	<dict>
@@ -64,6 +90,12 @@
 		<string>March 1 - Aug 1</string>
 		<key>Depth</key>
 		<string>1/8 inch</string>
+		<key>Space</key>
+		<string></string>
+		<key>Harvest</key>
+		<string></string>
+		<key>Varieties</key>
+		<string></string>
 	</dict>
 	<key>Carrots</key>
 	<dict>
