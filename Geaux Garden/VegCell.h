@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface VegCell : UITableViewCell
+@interface VegCell : NSObject
 
 
 
@@ -17,7 +17,9 @@
 @property (nonatomic, strong) NSString *springPlantingDate;
 @property (nonatomic,strong) NSString *fallPlantingDate;
 @property (nonatomic, strong) NSString *depth;
+@property (nonatomic,strong) NSString *space;
+@property (nonatomic,strong) NSString *varieties;
 
-+ (VegCell *)vegWithName:(NSString *)name springPlantingDate:(NSString *)springPlantingDate fallPlantingDate:(NSString *)fallPlantingDate depth:(NSString *)depth;
++ (VegCell *)vegWithName:(NSString *)name springPlantingDate:(NSString *)springPlantingDate fallPlantingDate:(NSString *)fallPlantingDate depth:(NSString *)depth space:(NSString *)space varieties:(NSString *)varieties;
 
 @end

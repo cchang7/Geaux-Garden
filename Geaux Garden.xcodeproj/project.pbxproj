@@ -22,8 +22,17 @@
 		5B3F9C4A15D2AC5B000576A4 /* VegListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3F9C4915D2AC5B000576A4 /* VegListViewController.m */; };
 		5B3F9C4D15D2AD1C000576A4 /* VegCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3F9C4C15D2AD1C000576A4 /* VegCell.m */; };
 		5B3F9C5015D2B586000576A4 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3F9C4F15D2B585000576A4 /* DetailViewController.m */; };
-		5B3F9C5215D2B7C3000576A4 /* SeedReference.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B3F9C5115D2B7C3000576A4 /* SeedReference.plist */; };
 		5B3F9C5515D2D173000576A4 /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3F9C5415D2D173000576A4 /* AddViewController.m */; };
+		5B41C8AD15D41DC90009C96E /* VeggieTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B41C8AC15D41DC90009C96E /* VeggieTableCell.m */; };
+		5B41C8B315D426350009C96E /* bpeppers.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B41C8AF15D426340009C96E /* bpeppers.png */; };
+		5B41C8B415D426350009C96E /* eggplant.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B41C8B015D426350009C96E /* eggplant.png */; };
+		5B41C8B515D426350009C96E /* hotpeppers.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B41C8B115D426350009C96E /* hotpeppers.png */; };
+		5B41C8B615D426350009C96E /* tomatoes.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B41C8B215D426350009C96E /* tomatoes.png */; };
+		5B41C8B815D43AB70009C96E /* autumnleaf.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B41C8B715D43AB70009C96E /* autumnleaf.jpg */; };
+		5B41C8BA15D43B7E0009C96E /* springleaf.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B41C8B915D43B7E0009C96E /* springleaf.png */; };
+		5B41C8BC15D43C9C0009C96E /* grass.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B41C8BB15D43C9C0009C96E /* grass.jpg */; };
+		5B41C8BE15D43CA30009C96E /* iphone_grass.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B41C8BD15D43CA30009C96E /* iphone_grass.jpg */; };
+		5B41C8C215D43EAA0009C96E /* MyGardenReference.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B41C8C115D43EAA0009C96E /* MyGardenReference.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,9 +61,19 @@
 		5B3F9C4C15D2AD1C000576A4 /* VegCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VegCell.m; sourceTree = "<group>"; };
 		5B3F9C4E15D2B585000576A4 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		5B3F9C4F15D2B585000576A4 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		5B3F9C5115D2B7C3000576A4 /* SeedReference.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SeedReference.plist; sourceTree = "<group>"; };
 		5B3F9C5315D2D173000576A4 /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
 		5B3F9C5415D2D173000576A4 /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
+		5B41C8AB15D41DC90009C96E /* VeggieTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VeggieTableCell.h; sourceTree = "<group>"; };
+		5B41C8AC15D41DC90009C96E /* VeggieTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VeggieTableCell.m; sourceTree = "<group>"; };
+		5B41C8AF15D426340009C96E /* bpeppers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bpeppers.png; sourceTree = "<group>"; };
+		5B41C8B015D426350009C96E /* eggplant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eggplant.png; sourceTree = "<group>"; };
+		5B41C8B115D426350009C96E /* hotpeppers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hotpeppers.png; sourceTree = "<group>"; };
+		5B41C8B215D426350009C96E /* tomatoes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tomatoes.png; sourceTree = "<group>"; };
+		5B41C8B715D43AB70009C96E /* autumnleaf.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = autumnleaf.jpg; sourceTree = "<group>"; };
+		5B41C8B915D43B7E0009C96E /* springleaf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = springleaf.png; sourceTree = "<group>"; };
+		5B41C8BB15D43C9C0009C96E /* grass.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grass.jpg; sourceTree = "<group>"; };
+		5B41C8BD15D43CA30009C96E /* iphone_grass.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iphone_grass.jpg; sourceTree = "<group>"; };
+		5B41C8C115D43EAA0009C96E /* MyGardenReference.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MyGardenReference.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				5B3F9C2E15D1B323000576A4 /* MainStoryboard_iPhone.storyboard */,
-				5B3F9C5115D2B7C3000576A4 /* SeedReference.plist */,
+				5B41C8C115D43EAA0009C96E /* MyGardenReference.plist */,
 				5B3F9C5315D2D173000576A4 /* AddViewController.h */,
 				5B3F9C5415D2D173000576A4 /* AddViewController.m */,
 				5B3F9C2B15D1B323000576A4 /* ClassAppAppDelegate.h */,
@@ -113,6 +132,8 @@
 				5B3F9C4915D2AC5B000576A4 /* VegListViewController.m */,
 				5B3F9C4B15D2AD1C000576A4 /* VegCell.h */,
 				5B3F9C4C15D2AD1C000576A4 /* VegCell.m */,
+				5B41C8AB15D41DC90009C96E /* VeggieTableCell.h */,
+				5B41C8AC15D41DC90009C96E /* VeggieTableCell.m */,
 				5B3F9C4E15D2B585000576A4 /* DetailViewController.h */,
 				5B3F9C4F15D2B585000576A4 /* DetailViewController.m */,
 				5B3F9C3415D1B323000576A4 /* ClassAppViewController.h */,
@@ -121,6 +142,14 @@
 				5B3F9C4015D2AA0A000576A4 /* LocationViewController.h */,
 				5B3F9C4115D2AA0A000576A4 /* LocationViewController.m */,
 				5B3F9C4215D2AA0A000576A4 /* LocationViewController.xib */,
+				5B41C8B915D43B7E0009C96E /* springleaf.png */,
+				5B41C8B715D43AB70009C96E /* autumnleaf.jpg */,
+				5B41C8AF15D426340009C96E /* bpeppers.png */,
+				5B41C8B015D426350009C96E /* eggplant.png */,
+				5B41C8B115D426350009C96E /* hotpeppers.png */,
+				5B41C8B215D426350009C96E /* tomatoes.png */,
+				5B41C8BB15D43C9C0009C96E /* grass.jpg */,
+				5B41C8BD15D43CA30009C96E /* iphone_grass.jpg */,
 				5B3F9C2315D1B322000576A4 /* Supporting Files */,
 			);
 			path = "Geaux Garden";
@@ -192,7 +221,15 @@
 				5B3F9C3015D1B323000576A4 /* MainStoryboard_iPhone.storyboard in Resources */,
 				5B3F9C3315D1B323000576A4 /* MainStoryboard_iPad.storyboard in Resources */,
 				5B3F9C4415D2AA0A000576A4 /* LocationViewController.xib in Resources */,
-				5B3F9C5215D2B7C3000576A4 /* SeedReference.plist in Resources */,
+				5B41C8B315D426350009C96E /* bpeppers.png in Resources */,
+				5B41C8B415D426350009C96E /* eggplant.png in Resources */,
+				5B41C8B515D426350009C96E /* hotpeppers.png in Resources */,
+				5B41C8B615D426350009C96E /* tomatoes.png in Resources */,
+				5B41C8B815D43AB70009C96E /* autumnleaf.jpg in Resources */,
+				5B41C8BA15D43B7E0009C96E /* springleaf.png in Resources */,
+				5B41C8BC15D43C9C0009C96E /* grass.jpg in Resources */,
+				5B41C8BE15D43CA30009C96E /* iphone_grass.jpg in Resources */,
+				5B41C8C215D43EAA0009C96E /* MyGardenReference.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +249,7 @@
 				5B3F9C4D15D2AD1C000576A4 /* VegCell.m in Sources */,
 				5B3F9C5015D2B586000576A4 /* DetailViewController.m in Sources */,
 				5B3F9C5515D2D173000576A4 /* AddViewController.m in Sources */,
+				5B41C8AD15D41DC90009C96E /* VeggieTableCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

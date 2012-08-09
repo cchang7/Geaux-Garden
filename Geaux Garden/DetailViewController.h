@@ -16,6 +16,8 @@
 @property (strong,nonatomic) VegCell *vegName;
 @property (weak, nonatomic) IBOutlet UILabel *vegSpringDate;
 @property (weak, nonatomic) IBOutlet UILabel *vegFallDate;
+@property (weak, nonatomic) IBOutlet UILabel *vegSpace;
+@property (weak, nonatomic) IBOutlet UILabel *vegVarieties;
 
 @property (weak, nonatomic) IBOutlet UILabel *vegDepth;
 

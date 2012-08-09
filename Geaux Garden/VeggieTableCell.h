@@ -10,4 +10,6 @@
 
 @interface VeggieTableCell : UITableViewCell
 
+@property (nonatomic,weak) IBOutlet UILabel *veggieName;
+
 @end

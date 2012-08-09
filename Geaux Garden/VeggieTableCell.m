@@ -9,6 +9,7 @@
 #import "VeggieTableCell.h"
 
 @implementation VeggieTableCell
+@synthesize veggieName;
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {

@@ -17,6 +17,8 @@
 @synthesize vegName;
 @synthesize vegSpringDate;
 @synthesize vegFallDate;
+@synthesize vegSpace;
+@synthesize vegVarieties;
 @synthesize vegDepth;
 @synthesize vegNameDetail;
 
@@ -42,6 +44,10 @@
     self.vegSpringDate.text = self.vegName.springPlantingDate;
     self.vegFallDate.text = self.vegName.fallPlantingDate;
     self.vegNameDetail.text = self.vegName.name;
+    self.vegDepth.text = self.vegName.depth;
+    self.vegSpace.text = self.vegName.space;
+    self.vegVarieties.text = self.vegName.varieties;
+    
 }
 
 - (void)viewDidUnload
@@ -50,6 +56,8 @@
     [self setVegSpringDate:nil];
     [self setVegDepth:nil];
     [self setVegFallDate:nil];
+    [self setVegSpace:nil];
+    [self setVegVarieties:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }

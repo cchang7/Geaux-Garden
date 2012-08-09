@@ -13,6 +13,8 @@
 @synthesize springPlantingDate = _springPlantingDate;
 @synthesize fallPlantingDate = _fallPlantingDate;
 @synthesize depth = _depth; 
+@synthesize space = _space;
+@synthesize varieties = _varieties;
 
 
 // name
@@ -21,14 +23,18 @@
 // seedDepth
 
 
-+ (VegCell *)vegWithName:(NSString *)name springPlantingDate:(NSString *)springPlantingDate fallPlantingDate:(NSString *)fallPlantingDate depth:(NSString *)depth
++ (VegCell *)vegWithName:(NSString *)name springPlantingDate:(NSString *)springPlantingDate fallPlantingDate:(NSString *)fallPlantingDate depth:(NSString *)depth space:(NSString *)space varieties:(NSString *)varieties
+
 {
+
     VegCell *newVegCell= [[VegCell alloc]init];
     
     newVegCell.name = name;
     newVegCell.springPlantingDate = springPlantingDate;
     newVegCell.fallPlantingDate = fallPlantingDate;
     newVegCell.depth = depth;
+    newVegCell.space = space;
+    newVegCell.varieties = varieties;
     
     
     
@@ -36,15 +42,6 @@
     
     
    }
-
-- (void)setSelected:(BOOL)selected animated:(BOOL)animated
-{
-    [super setSelected:selected animated:animated];
-
-    // Configure the view for the selected state
-}
-
-
 
 
 

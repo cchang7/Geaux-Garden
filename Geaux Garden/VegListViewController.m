@@ -9,6 +9,7 @@
 #import "VegListViewController.h"
 #import "VegCell.h"
 #import "DetailViewController.h"
+#import "VeggieTableCell.h"
 
 @interface VegListViewController ()
 
@@ -55,6 +56,8 @@
                                      springPlantingDate:[vegDict valueForKey:@"Spring"]
                                        fallPlantingDate:[vegDict valueForKey:@"Fall"]
                                                   depth:[vegDict valueForKey:@"Depth"]
+                                    space:[vegDict valueForKey:@"Space"]
+                                    varieties:[vegDict valueForKey:@"Varieties"]
                                     ]];
 
     
@@ -98,15 +101,24 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    VegCell *cell = [tableView dequeueReusableCellWithIdentifier:@"vegcell"];
+        
+    VeggieTableCell *cell = [tableView dequeueReusableCellWithIdentifier:@"vegcell"];
     
     // Configure the cell...
     
+        VegCell *vegetable = [self.veggieList objectAtIndex:indexPath.row];
     
-    cell.textLabel.text
+    cell.veggieName.text = vegetable.name;
+
+
     
-    cell.textLabel.text = [self.seedRef.allKeys objectAtIndex:indexPath.row];
     return cell;
+    
+    
+//    cell.mainLabel.text = cd.label;
+//    cell.smallLabel.text = cd.artist;
+    
+    
     
 }
 
@@ -118,7 +130,10 @@
     if ([segue.identifier isEqualToString:@"DetailViewSegue"]) {
         DetailViewController *detailVC = segue.destinationViewController;
         NSIndexPath *indexPath = [self.vegTableView indexPathForSelectedRow];
-        detailVC.vegName = [self.seedRef.allKeys objectAtIndex:indexPath.row];
+    
+        VegCell *veggie = [self.veggieList objectAtIndex:indexPath.row];
+        
+        detailVC.vegName = veggie;
         NSLog(@"Veg Name Object =%@", detailVC.vegName);
         [self.vegTableView deselectRowAtIndexPath:indexPath animated:YES];        
     }
