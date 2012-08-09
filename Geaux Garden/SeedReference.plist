@@ -47,7 +47,7 @@ Snap (Pole) Blue Lake, Kentucky Blue (AAS), Kentucky Wonder 191, McCaslin, Rattl
 		<key>Harvest</key>
 		<string>58 days</string>
 		<key>Varieties</key>
-		<string></string>
+		<string>Detroit Dark Red, Kestrel , Red Ace, Ruby Queen</string>
 	</dict>
 	<key>Broccoli</key>
 	<dict>
@@ -62,7 +62,7 @@ Snap (Pole) Blue Lake, Kentucky Blue (AAS), Kentucky Wonder 191, McCaslin, Rattl
 		<key>Harvest</key>
 		<string>80 days</string>
 		<key>Varieties</key>
-		<string></string>
+		<string>Arcadia, Diplomat, Gypsy, Packman, Premium Crop (AAS), Windsor</string>
 	</dict>
 	<key>Brussels Sprouts</key>
 	<dict>
@@ -72,6 +72,12 @@ Snap (Pole) Blue Lake, Kentucky Blue (AAS), Kentucky Wonder 191, McCaslin, Rattl
 		<string>July 15 - Sept 1</string>
 		<key>Depth</key>
 		<string>1/2 inch</string>
+		<key>Space</key>
+		<string>15 inches</string>
+		<key>Harvest</key>
+		<string>90 days</string>
+		<key>Varieties</key>
+		<string>Jade Cross E, Long Island Imp., Royal Marvel</string>
 	</dict>
 	<key>Cabbage</key>
 	<dict>
@@ -81,6 +87,14 @@ Snap (Pole) Blue Lake, Kentucky Blue (AAS), Kentucky Wonder 191, McCaslin, Rattl
 		<string>July 1 - Sep 15</string>
 		<key>Depth</key>
 		<string>1/8 inch</string>
+		<key>Space</key>
+		<string>15 inches</string>
+		<key>Harvest</key>
+		<string>70 days</string>
+		<key>Varieties</key>
+		<string>Early maturing: Blue Vantage, Platinum Dynasty, Stonehead
+Later maturing: Cheers, Blue Dynasty, Dynasty, Emblem, Red Vantage Point,  Rio Verde, Royal Vantage, Silver Dynasty
+Savoy type: King (AAS)</string>
 	</dict>
 	<key>Cantaloupe</key>
 	<dict>
@@ -91,11 +105,12 @@ Snap (Pole) Blue Lake, Kentucky Blue (AAS), Kentucky Wonder 191, McCaslin, Rattl
 		<key>Depth</key>
 		<string>1/8 inch</string>
 		<key>Space</key>
-		<string></string>
+		<string>24 days</string>
 		<key>Harvest</key>
-		<string></string>
+		<string>85 days</string>
 		<key>Varieties</key>
-		<string></string>
+		<string>Ambrosia, Aphrodite, Athena, Primo, Vienna
+Honeydew: Earli-dew, Honey Brew, Honey Max, Lambkin AAS, Passport, Temptation</string>
 	</dict>
 	<key>Carrots</key>
 	<dict>
@@ -105,6 +120,13 @@ Snap (Pole) Blue Lake, Kentucky Blue (AAS), Kentucky Wonder 191, McCaslin, Rattl
 		<string>Sept 1 - Nov 1</string>
 		<key>Depth</key>
 		<string>1/8 inch</string>
+		<key>Space</key>
+		<string>2 inches</string>
+		<key>Harvest</key>
+		<string>75 days</string>
+		<key>Varieties</key>
+		<string>Danvers 126, Purple Haze (AAS), Thumbelina
+Deep soils: Apache, Choctaw, Enterprise, Maverick, Navajo.</string>
 	</dict>
 	<key>Cauliflower</key>
 	<dict>
@@ -114,6 +136,12 @@ Snap (Pole) Blue Lake, Kentucky Blue (AAS), Kentucky Wonder 191, McCaslin, Rattl
 		<string>Aug 1 - Sept 1</string>
 		<key>Depth</key>
 		<string>1/8 inch</string>
+		<key>Space</key>
+		<string>24 inches</string>
+		<key>Harvest</key>
+		<string>65 days</string>
+		<key>Varieties</key>
+		<string>Candid Charm, Cumberland, Freedom Snow Crown, Incline, Majestic, Wentworth</string>
 	</dict>
 	<key>Celery</key>
 	<dict>
@@ -123,6 +151,12 @@ Snap (Pole) Blue Lake, Kentucky Blue (AAS), Kentucky Wonder 191, McCaslin, Rattl
 		<string>Oct 1 - Nov 1</string>
 		<key>Depth</key>
 		<string>1/8 inch</string>
+		<key>Space</key>
+		<string>8 inches</string>
+		<key>Harvest</key>
+		<string>210 days</string>
+		<key>Varieties</key>
+		<string></string>
 	</dict>
 	<key>Chard, Swiss</key>
 	<dict>
@@ -132,6 +166,12 @@ Snap (Pole) Blue Lake, Kentucky Blue (AAS), Kentucky Wonder 191, McCaslin, Rattl
 		<string>Aug 15 - Oct 1</string>
 		<key>Depth</key>
 		<string>1/4 inch</string>
+		<key>Space</key>
+		<string>8 inches</string>
+		<key>Harvest</key>
+		<string>50 days</string>
+		<key>Varieties</key>
+		<string></string>
 	</dict>
 	<key>Chinese Cabbage</key>
 	<dict>
@@ -141,6 +181,12 @@ Snap (Pole) Blue Lake, Kentucky Blue (AAS), Kentucky Wonder 191, McCaslin, Rattl
 		<string>July 15 - Oct 1</string>
 		<key>Depth</key>
 		<string>1/2</string>
+		<key>Space</key>
+		<string>12 inches</string>
+		<key>Harvest</key>
+		<string>80 days</string>
+		<key>Varieties</key>
+		<string></string>
 	</dict>
 	<key>Collards</key>
 	<dict>
@@ -150,6 +196,12 @@ Snap (Pole) Blue Lake, Kentucky Blue (AAS), Kentucky Wonder 191, McCaslin, Rattl
 		<string>March 15 - October 1</string>
 		<key>Depth</key>
 		<string>1/8 inch</string>
+		<key>Space</key>
+		<string>12 inches</string>
+		<key>Harvest</key>
+		<string>75 days</string>
+		<key>Varieties</key>
+		<string>Champion, Flash, Georgia (Creole), Top Pick, Top Bunch, Vates</string>
 	</dict>
 	<key>Corn, Sweet</key>
 	<dict>
@@ -159,6 +211,14 @@ Snap (Pole) Blue Lake, Kentucky Blue (AAS), Kentucky Wonder 191, McCaslin, Rattl
 		<string>Feb 15 - May 15</string>
 		<key>Depth</key>
 		<string>1/2 inch</string>
+		<key>Space</key>
+		<string>12 inches</string>
+		<key>Harvest</key>
+		<string>90 days</string>
+		<key>Varieties</key>
+		<string>Sweet: Funks G90 (BC), Gold Queen, Merit, Seneca Horizon (BC), Silver Queen
+	Supersweet: Gold Queen, Honey ëN Pearl (AAS) (BC), XTender 372, 270 (BC) or 282 (BC)
+	Sugar Enhanced (SE): Ambrosia, Avalon, Bodacious, Delectable, Honey Select (AAS), Incredible, Lancelot (BC), Miracle, Precious Gem (BC), Temptation (BC), White Out</string>
 	</dict>
 	<key>Cucumbers</key>
 	<dict>
@@ -168,6 +228,13 @@ Snap (Pole) Blue Lake, Kentucky Blue (AAS), Kentucky Wonder 191, McCaslin, Rattl
 		<string>March 1 - Sept 1</string>
 		<key>Depth</key>
 		<string>1/4 inch</string>
+		<key>Space</key>
+		<string>18 inches</string>
+		<key>Harvest</key>
+		<string>60 days</string>
+		<key>Varieties</key>
+		<string>Slicers: Dasher II, Diva (AAS), Fanfare (AAS), General Lee, Intimidator, Indy, Olympian, Poinsett 76, Rockingham, Speedway, Talladega, Thunder, Salad Bush (AAS), Sweet Slice, Sweet Success (AAS)
+Pickler: Calypso, Vlasstar</string>
 	</dict>
 	<key>Eggplant</key>
 	<dict>
@@ -177,6 +244,12 @@ Snap (Pole) Blue Lake, Kentucky Blue (AAS), Kentucky Wonder 191, McCaslin, Rattl
 		<string>Jan 1 - June 1</string>
 		<key>Depth</key>
 		<string>1/8 inch</string>
+		<key>Space</key>
+		<string>18-24 inches</string>
+		<key>Harvest</key>
+		<string>140 days</string>
+		<key>Varieties</key>
+		<string>Black Beauty, Calliope, Classic, Dusky, Epic, Fairy Tale (AAS), Ichiban, Night Shadow, Santana</string>
 	</dict>
 	<key>Garlic</key>
 	<dict>
@@ -186,6 +259,14 @@ Snap (Pole) Blue Lake, Kentucky Blue (AAS), Kentucky Wonder 191, McCaslin, Rattl
 		<string>Oct 1 - Nov 30</string>
 		<key>Depth</key>
 		<string>1 inch</string>
+		<key>Space</key>
+		<string>6 inches</string>
+		<key>Harvest</key>
+		<string>Creole, Italian
+Large: Elephant Tahiti</string>
+		<key>Varieties</key>
+		<string>Creole, Italian
+Large: Elephant Tahiti</string>
 	</dict>
 	<key>Kohlrabi</key>
 	<dict>
@@ -195,6 +276,12 @@ Snap (Pole) Blue Lake, Kentucky Blue (AAS), Kentucky Wonder 191, McCaslin, Rattl
 		<string>Aug 15 - Oct 30</string>
 		<key>Depth</key>
 		<string>1/8 inch</string>
+		<key>Space</key>
+		<string>6 inches</string>
+		<key>Harvest</key>
+		<string>55-75 days</string>
+		<key>Varieties</key>
+		<string>Early Purple Vienna, Early White Vienna, Winner</string>
 	</dict>
 	<key>Lettuce</key>
 	<dict>
@@ -204,6 +291,14 @@ Snap (Pole) Blue Lake, Kentucky Blue (AAS), Kentucky Wonder 191, McCaslin, Rattl
 		<string>Aug 15 - Sep 30</string>
 		<key>Depth</key>
 		<string>1/8 inch</string>
+		<key>Space</key>
+		<string>6-12 inches</string>
+		<key>Harvest</key>
+		<string>45-80 days</string>
+		<key>Varieties</key>
+		<string>Romaine: Cimarron Red, Cuore, Flashy Trout back, Green Towers, Parris Island Cos, Red Eye, Tall Guzmaine Elite
+Leaf: New Red Fire, Red Salad Bowl, Nevada, Sierra, New Red Sails, Salad Bowl, Tango, Grand Rapids
+Head: Buttercrunch, Esmeralda, Great Lakes, Ithaca, Maverick</string>
 	</dict>
 	<key>Mustard Greens</key>
 	<dict>
@@ -213,6 +308,12 @@ Snap (Pole) Blue Lake, Kentucky Blue (AAS), Kentucky Wonder 191, McCaslin, Rattl
 		<string>Aug 1 - March 15</string>
 		<key>Depth</key>
 		<string>1/8 inch</string>
+		<key>Space</key>
+		<string>2 inches</string>
+		<key>Harvest</key>
+		<string>45 days</string>
+		<key>Varieties</key>
+		<string>Florida Broadleaf, Greenwave, Red Giant, Southern Giant Curled, Savannah, Tendergreen</string>
 	</dict>
 	<key>Okra</key>
 	<dict>
@@ -222,6 +323,12 @@ Snap (Pole) Blue Lake, Kentucky Blue (AAS), Kentucky Wonder 191, McCaslin, Rattl
 		<string>March 1 - Aug 1</string>
 		<key>Depth</key>
 		<string>1/2 inch</string>
+		<key>Space</key>
+		<string>12 inches</string>
+		<key>Harvest</key>
+		<string>60 days</string>
+		<key>Varieties</key>
+		<string>Annie Oakley, Cajun Delight (AAS), Clemson Spineless, Cowhorn Burgundy (AAS), Emerald, Lee, North and South</string>
 	</dict>
 	<key>Onions, Leeks</key>
 	<dict>
@@ -231,6 +338,15 @@ Snap (Pole) Blue Lake, Kentucky Blue (AAS), Kentucky Wonder 191, McCaslin, Rattl
 		<string>Sept 1 - Oct 15</string>
 		<key>Depth</key>
 		<string>1/8 inch</string>
+		<key>Space</key>
+		<string>2-4 inches</string>
+		<key>Harvest</key>
+		<string>135-210 days</string>
+		<key>Varieties</key>
+		<string>Red: Red Creole (not sweet), Southern Belle
+White: Candy, Century, Savannah Sweet
+Yellow: Granex 33, Grano 502, Texas Grano 1015 Y
+Scallions: Bunching Star</string>
 	</dict>
 	<key>Peanuts</key>
 	<dict>
@@ -240,6 +356,12 @@ Snap (Pole) Blue Lake, Kentucky Blue (AAS), Kentucky Wonder 191, McCaslin, Rattl
 		<string></string>
 		<key>Depth</key>
 		<string>1 inch</string>
+		<key>Space</key>
+		<string>4-8 inches</string>
+		<key>Harvest</key>
+		<string>110-120 days</string>
+		<key>Varieties</key>
+		<string></string>
 	</dict>
 	<key>Peas, Engish</key>
 	<dict>
@@ -249,6 +371,12 @@ Snap (Pole) Blue Lake, Kentucky Blue (AAS), Kentucky Wonder 191, McCaslin, Rattl
 		<string>Sept 1 - Sept 15</string>
 		<key>Depth</key>
 		<string>1/2 inch</string>
+		<key>Space</key>
+		<string>2-3 inches</string>
+		<key>Harvest</key>
+		<string>60-70 days</string>
+		<key>Varieties</key>
+		<string>Mr. Big (AAS), Novella II, Oregon Sugar Pod, Sugar Ann (AAS), Sugar Snap (AAS)</string>
 	</dict>
 	<key>Peas, Southern</key>
 	<dict>
@@ -258,6 +386,15 @@ Snap (Pole) Blue Lake, Kentucky Blue (AAS), Kentucky Wonder 191, McCaslin, Rattl
 		<string>March 15 - Aug 10</string>
 		<key>Depth</key>
 		<string>1/2 inch</string>
+		<key>Space</key>
+		<string>4-6 inches</string>
+		<key>Harvest</key>
+		<string>70-80 days</string>
+		<key>Varieties</key>
+		<string>Blackeye: Magnolia (N), Queen Anne, Royal, California No. 5
+Pinkeye: Mississippi Pinkeye, Pinkeye Purple Hull, QuickPick, Top Pick Pink
+Cream: Elite, Mississippi Cream, Texas No. 8, Top Pick Cream
+Crowder: Colossus, Dixie Lee, Hercules, Knuckle Purple, Mississippi Purple (N), Mississippi Shipper, Mississippi Silver (N), Top Pick, Zipper Cream</string>
 	</dict>
 	<key>Peppers, Hot</key>
 	<dict>
@@ -267,6 +404,12 @@ Snap (Pole) Blue Lake, Kentucky Blue (AAS), Kentucky Wonder 191, McCaslin, Rattl
 		<string></string>
 		<key>Depth</key>
 		<string>1/8 inch</string>
+		<key>Space</key>
+		<string>12-18 inches</string>
+		<key>Harvest</key>
+		<string>140 days</string>
+		<key>Varieties</key>
+		<string>Ancho 101, Cayenne, Chilly Chili (AAS), El Rey, Grande, Habanero, Hungarian Wax, Inferno,  Jalapeno M,  Long Thin Tula, Mariachi (AAS), Mitla, Red Thick Cayenne, Serrano, Super Cayenne (N), Tabasco</string>
 	</dict>
 	<key>Peppers, Bell</key>
 	<dict>
@@ -276,6 +419,13 @@ Snap (Pole) Blue Lake, Kentucky Blue (AAS), Kentucky Wonder 191, McCaslin, Rattl
 		<string>June 5 - July 5</string>
 		<key>Depth</key>
 		<string>1/8 inch</string>
+		<key>Space</key>
+		<string>15-18 inches</string>
+		<key>Harvest</key>
+		<string>140-150 days</string>
+		<key>Varieties</key>
+		<string>Bell: Aristotle X3R, Blushing Beauty (AAS), Camelot X3R, Capistrano (OP), Excursion II, Heritage, Jupiter (OP), King Arthur, Lafayette, Lilac, Paladin, Plato, Purple Beauty, Summer Gold, Tequila, Valencia
+Frying Type: Biscayne, Carmen (AAS), Cubanelle, Gypsy (AAS), Tiburon Ancho</string>
 	</dict>
 	<key>Potatoes, Irish</key>
 	<dict>
@@ -285,6 +435,13 @@ Snap (Pole) Blue Lake, Kentucky Blue (AAS), Kentucky Wonder 191, McCaslin, Rattl
 		<string>Aug 15 - Sept 15</string>
 		<key>Depth</key>
 		<string>4 inches</string>
+		<key>Space</key>
+		<string>12 inches</string>
+		<key>Harvest</key>
+		<string>90-120 days</string>
+		<key>Varieties</key>
+		<string>Red Skin: Norland, Red LaSoda, Red Pontiac
+White Skin: Norchip, Kennebec, Yukon Gold</string>
 	</dict>
 	<key>Potatoes, Sweet</key>
 	<dict>
@@ -294,6 +451,12 @@ Snap (Pole) Blue Lake, Kentucky Blue (AAS), Kentucky Wonder 191, McCaslin, Rattl
 		<string></string>
 		<key>Depth</key>
 		<string>use plants</string>
+		<key>Space</key>
+		<string>12 inches</string>
+		<key>Harvest</key>
+		<string>90-120 days</string>
+		<key>Varieties</key>
+		<string>Beauregard, Bienville, Centennial, Hernandez</string>
 	</dict>
 	<key>Pumpkins</key>
 	<dict>
@@ -303,6 +466,12 @@ Snap (Pole) Blue Lake, Kentucky Blue (AAS), Kentucky Wonder 191, McCaslin, Rattl
 		<string>Mar 15 - Sept 15</string>
 		<key>Depth</key>
 		<string>1/2 inch</string>
+		<key>Space</key>
+		<string>36-60 inches</string>
+		<key>Harvest</key>
+		<string>90-120 days</string>
+		<key>Varieties</key>
+		<string>Atlantic Giant, Autumn Gold (AAS), Baby Bear (AAS), Baby Boo, Big Max, Big Moon, Cinderella, Gold Medal, Gold Rush (AAS), Gooligan, Jack-Be-Little (AAS), Orange Smoothie (AAS), Prankster,  Silver Moon, Small Sugar, Sorcerer (AAS), Spirit (AAS)</string>
 	</dict>
 	<key>Radishes</key>
 	<dict>
@@ -312,6 +481,28 @@ Snap (Pole) Blue Lake, Kentucky Blue (AAS), Kentucky Wonder 191, McCaslin, Rattl
 		<string>Sept 1 - Nov 1</string>
 		<key>Depth</key>
 		<string>1/8 inch</string>
+		<key>Space</key>
+		<string>1 inch</string>
+		<key>Harvest</key>
+		<string>22-28 days</string>
+		<key>Varieties</key>
+		<string></string>
+	</dict>
+	<key>Spinach</key>
+	<dict>
+		<key>Spring</key>
+		<string>plant in fall/winter</string>
+		<key>Fall</key>
+		<string>Oct 1 - Feb 1</string>
+		<key>Depth</key>
+		<string>1/8 inch</string>
+		<key>Space</key>
+		<string>3-6 inches</string>
+		<key>Harvest</key>
+		<string>35-45 days</string>
+		<key>Varieties</key>
+		<string>Bloomsdale L.S., Melody (AAS), Tyee, Unipak 151
+Smooth: Ballet, TigerCat</string>
 	</dict>
 	<key>Summer Squash</key>
 	<dict>
@@ -321,6 +512,15 @@ Snap (Pole) Blue Lake, Kentucky Blue (AAS), Kentucky Wonder 191, McCaslin, Rattl
 		<string>March 1 - Aug 15</string>
 		<key>Depth</key>
 		<string>1/8 inch</string>
+		<key>Space</key>
+		<string>36 inches</string>
+		<key>Harvest</key>
+		<string>50-90 days</string>
+		<key>Varieties</key>
+		<string>Zucchini: Cash Flow, Declaration II, Gold Rush (AAS), Justice III, Payroll, Senator, Spineless Beauty, Tigress
+Straight Neck: Enterprise, Liberator III, Multipik, Patriot
+Crook Neck: Destiny III, Dixie, Gentry, Medallion, Prelude II
+Scalloped: Patty Green, Peter Pan, Sunburst</string>
 	</dict>
 	<key>Tomatoes</key>
 	<dict>
@@ -330,6 +530,15 @@ Snap (Pole) Blue Lake, Kentucky Blue (AAS), Kentucky Wonder 191, McCaslin, Rattl
 		<string>Jun 1 - July 1</string>
 		<key>Depth</key>
 		<string>1/8 inch</string>
+		<key>Space</key>
+		<string>16-24 days</string>
+		<key>Harvest</key>
+		<string>100-115 days</string>
+		<key>Varieties</key>
+		<string>Indeterminate: Better Boy (N), Big Beef (AAS) (N), Champion (N), Jet Star, Pink Girl, Sun Gold, Terrific (N)
+Determinate: Bella Rosa, BHN 981 and BHN 876, Carolina Gold, Celebrity (AAS) (N), Crista (N), Floralina, Mountain Fresh Plus, Mountain Spring
+Heat Tolerant: Florida 91, Heatwave II, Phoenix, Solar Set, Sun Leaper, Sun Master, Solar Fire, Talladega
+Others: Cupid, Juliet (AAS), Muriel  Roma (N), Picus Roma, Small Fry (AAS), Sweet Million, Sun Gold Cherry</string>
 	</dict>
 	<key>Turnips</key>
 	<dict>
@@ -339,6 +548,13 @@ Snap (Pole) Blue Lake, Kentucky Blue (AAS), Kentucky Wonder 191, McCaslin, Rattl
 		<string>Aug 1 - Feb 28</string>
 		<key>Depth</key>
 		<string>1/8 inch</string>
+		<key>Space</key>
+		<string>2-6 inches</string>
+		<key>Harvest</key>
+		<string>40-50 days</string>
+		<key>Varieties</key>
+		<string>Just Right (AAS), Purple Top Shogoin, Tokyo Cross (AAS), White Lady
+Greens: Alamo, Seven Top</string>
 	</dict>
 	<key>Watermelon</key>
 	<dict>
@@ -348,6 +564,15 @@ Snap (Pole) Blue Lake, Kentucky Blue (AAS), Kentucky Wonder 191, McCaslin, Rattl
 		<string>March 15 - Aug 1</string>
 		<key>Depth</key>
 		<string>1/2 inch</string>
+		<key>Space</key>
+		<string>48 inches</string>
+		<key>Harvest</key>
+		<string>90-100 days</string>
+		<key>Varieties</key>
+		<string>Crimson Sweet (OP), Jubilee II (OP), Juliette, La Sweet (OP), Patriot, Regency, Royal Jubilee,  Royal Star, Royal Sweet, Sangria, Starbrite, Stars ëN Stripes, Summer Flavor 710 or 720
+Seedless: Cooperstown, Gypsy, Imagination, Krispy Krunch, Liberty, Matrix, Millennium, Millionaire, Revolution
+Ice Box Type: Mickeylee, Sugarbaby, Vanessa
+Yellow: Amarillo, Butter Cup, Desert King, Gold Strike, Tendergold, Tendersweet</string>
 	</dict>
 </dict>
 </plist>
