@@ -15,8 +15,9 @@
 @implementation DetailViewController
 
 @synthesize vegName;
-@synthesize vegDate;
-@synthesize vegInfo;
+@synthesize vegSpringDate;
+@synthesize vegFallDate;
+@synthesize vegDepth;
 @synthesize vegNameDetail;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -37,13 +38,18 @@
     NSDictionary *seedRef = [NSDictionary dictionaryWithContentsOfFile:filePath];
     NSLog(@"%@",seedRef);
     NSLog(@"vegName %@",vegName);
+    
+    self.vegSpringDate.text = self.vegName.springPlantingDate;
+    self.vegFallDate.text = self.vegName.fallPlantingDate;
+    self.vegNameDetail.text = self.vegName.name;
 }
 
 - (void)viewDidUnload
 {
     [self setVegName:nil];
-    [self setVegDate:nil];
-    [self setVegInfo:nil];
+    [self setVegSpringDate:nil];
+    [self setVegDepth:nil];
+    [self setVegFallDate:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }

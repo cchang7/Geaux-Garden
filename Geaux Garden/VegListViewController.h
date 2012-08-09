@@ -13,4 +13,5 @@
 @property (weak, nonatomic) IBOutlet UITableView *vegTableView;
 
 @property (strong, nonatomic) NSDictionary *seedRef;
+@property (strong, nonatomic) NSMutableArray *veggieList;
 @end

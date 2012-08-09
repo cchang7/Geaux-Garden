@@ -10,19 +10,27 @@
 
 @implementation VegCell
 @synthesize name = _name;
-@synthesize date = _date;
-@synthesize info = _info;
+@synthesize springPlantingDate = _springPlantingDate;
+@synthesize fallPlantingDate = _fallPlantingDate;
+@synthesize depth = _depth; 
 
 
+// name
+// springPlantingDate
+// fall...
+// seedDepth
 
 
-- (VegCell *)vegWithName:(NSString *)name date:(NSString *)date info:(NSString *)info
++ (VegCell *)vegWithName:(NSString *)name springPlantingDate:(NSString *)springPlantingDate fallPlantingDate:(NSString *)fallPlantingDate depth:(NSString *)depth
 {
     VegCell *newVegCell= [[VegCell alloc]init];
     
     newVegCell.name = name;
-    newVegCell.date = date;
-    newVegCell.info = info;
+    newVegCell.springPlantingDate = springPlantingDate;
+    newVegCell.fallPlantingDate = fallPlantingDate;
+    newVegCell.depth = depth;
+    
+    
     
     return newVegCell;
     

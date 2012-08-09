@@ -14,7 +14,10 @@
 
 
 @property (nonatomic, strong) NSString *name;
-@property (nonatomic, strong) NSString *date;
-@property (nonatomic, strong) NSString *info;
+@property (nonatomic, strong) NSString *springPlantingDate;
+@property (nonatomic,strong) NSString *fallPlantingDate;
+@property (nonatomic, strong) NSString *depth;
+
++ (VegCell *)vegWithName:(NSString *)name springPlantingDate:(NSString *)springPlantingDate fallPlantingDate:(NSString *)fallPlantingDate depth:(NSString *)depth;
 
 @end

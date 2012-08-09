@@ -113,14 +113,14 @@
 				5B3F9C4915D2AC5B000576A4 /* VegListViewController.m */,
 				5B3F9C4B15D2AD1C000576A4 /* VegCell.h */,
 				5B3F9C4C15D2AD1C000576A4 /* VegCell.m */,
-				5B3F9C4015D2AA0A000576A4 /* LocationViewController.h */,
-				5B3F9C4115D2AA0A000576A4 /* LocationViewController.m */,
-				5B3F9C4215D2AA0A000576A4 /* LocationViewController.xib */,
 				5B3F9C4E15D2B585000576A4 /* DetailViewController.h */,
 				5B3F9C4F15D2B585000576A4 /* DetailViewController.m */,
 				5B3F9C3415D1B323000576A4 /* ClassAppViewController.h */,
 				5B3F9C3515D1B323000576A4 /* ClassAppViewController.m */,
 				5B3F9C3115D1B323000576A4 /* MainStoryboard_iPad.storyboard */,
+				5B3F9C4015D2AA0A000576A4 /* LocationViewController.h */,
+				5B3F9C4115D2AA0A000576A4 /* LocationViewController.m */,
+				5B3F9C4215D2AA0A000576A4 /* LocationViewController.xib */,
 				5B3F9C2315D1B322000576A4 /* Supporting Files */,
 			);
 			path = "Geaux Garden";

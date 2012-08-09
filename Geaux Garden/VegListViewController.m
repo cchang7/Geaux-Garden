@@ -16,6 +16,7 @@
 
 @implementation VegListViewController
 @synthesize seedRef;
+@synthesize veggieList;
 @synthesize vegTableView;
 
 
@@ -38,9 +39,31 @@
 //    [[seedRef allkeys] count];
     
     
+
+    
     NSString *filePath = [[NSBundle mainBundle] pathForResource:@"SeedReference" ofType:@"plist"];
     self.seedRef = [NSDictionary dictionaryWithContentsOfFile:filePath];
     NSLog(@"%@",self.seedRef);
+    
+    
+    self.veggieList = [[NSMutableArray alloc]init ];
+    
+    for (NSString *vegName in self.seedRef.allKeys) {
+        NSDictionary *vegDict = [self.seedRef objectForKey:vegName];
+   
+        [self.veggieList addObject:[VegCell vegWithName:vegName
+                                     springPlantingDate:[vegDict valueForKey:@"Spring"]
+                                       fallPlantingDate:[vegDict valueForKey:@"Fall"]
+                                                  depth:[vegDict valueForKey:@"Depth"]
+                                    ]];
+
+    
+    }
+  
+  
+    //addnewthings  while loop through seedRef
+    
+    
 //    
     
     // Uncomment the following line to preserve selection between presentations.
@@ -70,7 +93,7 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     // Return the number of rows in the section.
-    return self.seedRef.allKeys.count;
+    return self.veggieList.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -78,6 +101,9 @@
     VegCell *cell = [tableView dequeueReusableCellWithIdentifier:@"vegcell"];
     
     // Configure the cell...
+    
+    
+    cell.textLabel.text
     
     cell.textLabel.text = [self.seedRef.allKeys objectAtIndex:indexPath.row];
     return cell;
@@ -93,6 +119,7 @@
         DetailViewController *detailVC = segue.destinationViewController;
         NSIndexPath *indexPath = [self.vegTableView indexPathForSelectedRow];
         detailVC.vegName = [self.seedRef.allKeys objectAtIndex:indexPath.row];
+        NSLog(@"Veg Name Object =%@", detailVC.vegName);
         [self.vegTableView deselectRowAtIndexPath:indexPath animated:YES];        
     }
 }

@@ -8,11 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+#import "VegCell.h"
+
 @interface DetailViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UILabel *vegNameDetail;
 
-@property (strong,nonatomic) NSString *vegName;
-@property (weak, nonatomic) IBOutlet UILabel *vegDate;
-@property (weak, nonatomic) IBOutlet UILabel *vegInfo;
+@property (strong,nonatomic) VegCell *vegName;
+@property (weak, nonatomic) IBOutlet UILabel *vegSpringDate;
+@property (weak, nonatomic) IBOutlet UILabel *vegFallDate;
+
+@property (weak, nonatomic) IBOutlet UILabel *vegDepth;
 
 @end
